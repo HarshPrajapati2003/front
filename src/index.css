@@ -6,7 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.logo{
+  max-width: 70px;
+  cursor: pointer;
+  margin-right: auto;
+}
+.home-div {
+  height: 90vh;
+  flex-direction: column;
+}
+@media screen and (max-width:800px) {
+  .logo{max-width: 50px;}
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
