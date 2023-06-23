@@ -20,8 +20,8 @@ const Logout = () => {
       credentials:"include"
     }).then((res)=>{
       navigate("/login")
+      dispatch({type:"USER",payload:false})
       if(res.status !== 200){
-        dispatch({type:"USER",payload:false})
         const error = new Error(res.error)
         throw error
       }
