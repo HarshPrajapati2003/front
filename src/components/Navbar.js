@@ -11,7 +11,7 @@ const RenderMenu = ()=>{
       return(<>
       
       <li className="nav-item">
-        <NavLink className="nav-link bg-light" aria-current="page" to="/">Home</NavLink>
+        <NavLink className="nav-link bg-light" aria-current="page" to="/front">Home</NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link bg-light" to="/about">About</NavLink>

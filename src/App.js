@@ -19,7 +19,7 @@ const Routing = ()=>{
   return(
     <>
     <Routes>
-      <Route exact path="/" element={<Home />}>
+      <Route exact path="/front" element={<Home />}>
       </Route>
 
       <Route path="/about" element={<About />}>

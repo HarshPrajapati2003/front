@@ -28,7 +28,7 @@ const Errorpage = () => {
     <div style={css}>
       <h1 className='text-center' style={hcss}>404 Error Page Not Found 😞</h1>
       <p className='text-center text-danger font-weight-bold' style={hcss}>Sorry ! The page you are looking for might have been removed had its name changed or is temporarily unavailable</p>
-      <div  className="btn" style={bcss} ><NavLink to="/" style={bcss}>Go back</NavLink></div>
+      <div  className="btn" style={bcss} ><NavLink to="/front" style={bcss}>Go back</NavLink></div>
     </div>
     </>
   )
