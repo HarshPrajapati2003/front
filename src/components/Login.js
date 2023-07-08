@@ -212,7 +212,7 @@ const Login = () => {
         else{
             dispatch({type:"USER",payload:true})
             window.alert("Signin Successful")
-            navigate("/")
+            navigate("/front")
         }
     }
 
